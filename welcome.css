@@ -1,0 +1,156 @@
+*{
+  margin: 10px;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background: black;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar{
+  position: fixed;
+  padding: 25px 9px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar .logo{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Impact;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.navbar ul li{
+  font-size: 20px;
+  font-weight: 500;
+  transition: 5s;
+}
+
+.navbar ul li:hover a,
+.navbar ul li:active a {
+  color: red;
+}
+
+.home{
+  color: #fff;
+  align-items: center;
+  padding-left: 10px;
+  height: 50vh;
+}
+
+.text-section{
+  flex: 1;
+  max-width: 600px;
+  
+}
+
+.hd1-img{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.img{
+  height: auto;
+  width: auto;
+  padding-top: 100px;
+  
+}
+
+
+.home-info h1{
+  flex: 1;
+  font-size: 36px;
+  padding-top: 200px;
+  
+}
+
+.home-info h2{
+  font-size: 30px;
+  margin-top: -10px;
+  text-decoration-line: underline;
+  padding-top: 30px;
+}
+
+
+.home-info p{
+  
+  font-size: 18px;
+  margin: 10px 0 25px;
+  font-family: 'sans serifs';
+  padding-bottom: 30px;
+}
+
+.btns{
+  animation: green;
+  animation-duration: 3s;
+  background: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.btn-join, .btn-login{
+  color: black;
+  background: #ff7200;
+  border: blanchedalmond;
+  border: 5px;
+  padding: 10px 80px;
+  border-color: green;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 40px;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: 800px;
+  box-shadow: 0 0 40px #ff7200;
+  
+  
+}
+
+.ask input{
+  
+  padding: 15px;
+  width: 500px;
+  border-bottom: 1px solid #ff7200;
+  border-left: 1px solid #ff7200;
+  border-bottom-left-radius: 10px;
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial;
+  font-size: 18px;
+  
+}
+
+.ask button{
+  padding: 10px 30px;
+  background: green;
+}
+
+.ask{
+  padding-top: 40px;
+  
+}

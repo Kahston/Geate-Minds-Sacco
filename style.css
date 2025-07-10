@@ -1,0 +1,71 @@
+css
+/*style.css*/
+/*stylebuttons*/
+
+.body{
+  background: #ff7200;
+  margin:0px;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.logo{
+          color: #ff7200;
+          font-size: 35px;
+          font-family: Arial;
+          padding-left: 20px;
+          float: left;
+          padding-top: 10px;
+}
+.button {
+  animation-fill-mode: blue;
+  color: white;
+  background-color: #4CAlF50;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+{
+  width:80%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.a{
+  
+}
+
+a:hover{
+  text-decoration: underline;
+}
+  
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+  border: 20px solidblack;
+  border-radius: 8px;
+
+*{
+  margin: 0;
+  padding: 
+}0;
+
+.main{
+  width:100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%) ;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  background-image: Home.jpg;
+  
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body background="Grey.jpg">
+                
+                
+          
+  <h1>
+    <table>
+      <tr>
+        <td colspan="3">
+         &nbsp;
+        </td>
+      </tr>
+            <tr>
+        <td colspan="3">
+         &nbsp;
+        </td>
+      </tr>
+            <tr>
+        <td colspan="3">
+         &nbsp;
+        </td>
+      </tr>
+            <tr>
+        <td colspan="3">
+         &nbsp;
+        </td>
+      </tr>
+    </table>
+  </h1>
+  <h2 >
+    
+  </h2>
+  <form>
+    <table width=50% border="0" ALIGN=CENTER CELLSPACING=10
+>
+     <div class="h1">  
+      <th>
+        GREAT MINDS SACCO
+      </th></div>
+    
+     <tr>
+      <td
+        style="font-size: xxx-large;" colspan="2">
+    <marquee>
+<b>welcome back!</b>
+    </marquee> 
+      </td>        
+    </tr>
+     </table>
+      
+      <table width=50% border="0" align="center" cellspanning=10
+        bgcolor="transparent"
+        style="border: 1px solidwhite;
+        border-collapse: collapse;">
+        
+         
+        <tr>
+          <td colspan="3">
+           &nbsp; 
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="h2" colspan="3" align="center">
+            <b>log in here</b>
+            
+          </td>
+        </tr>
+        
+            <tr>
+             <td colspan="3">
+                  &nbsp;
+             </td>
+        
+              <tr>
+             <td>
+                  &nbsp;
+             </td>
+          <td align="left" colspan="2">
+            <label for="email" id="label">
+              Email
+            </label>
+          </td>
+      </tr>
+              
+              <tr>
+             <td>
+                  &nbsp;
+             </td>
+      <td colspan="2" ALIGN=left>
+        <input type="text" id="email" name="Email" minlength="8" maxlength="18" required       
+          placeholder="example@gmail.com"
+          
+        ></TD>
+    </TR>
+                
+              <tr>
+                <td colspan="3">
+                  &nbsp;
+                </td>
+              </tr>
+              
+        <tr>
+            <td>
+                  &nbsp;
+             </td>
+          <td align="left" colspan="2">
+            <label for="password" id="lable"
+          Password></label>
+          </td>
+        </tr>
+            
+              <tr>
+                  <td>
+                  &nbsp;
+             </td>
+                <td colspan="2" ALIGN=left>
+                  <input type="text" id="pswd" name="Password" placeholder="min-length=8 chars"
+                    required
+                  ></TD>
+    </TR>
+    
+    <TR>
+      <td colspan="3"> &nbsp; </TD>
+    </TR>
+              
+    <TR>
+        <td>
+                  &nbsp;
+             </td>
+      <td colspan="3" align="center"
+        >remember me? 
+     <input type="checkbox" name="remember" value="yes" id="rmbr"
+       required></TD>
+    </TR>
+                
+              <tr>
+                <td colspan="3">
+                  &nbsp;
+                </td>
+              </tr>
+              
+                      <tr>
+                <td>
+                  &nbsp;
+                </td>
+         <td align="right">
+          <button type="reset" name="reset" id="rst"><b>CLEAR</b></button></TD>
+      
+    </TR>
+              
+              <tr>
+                <td colspan="3">
+                  &nbsp;
+                </td>
+              </tr>
+       <TR>
+           <td>
+                  &nbsp;
+             </td>
+      <TD ALIGN=center>
+        <a href="dashboard.html"
+          style="text-decoration: none;">
+        <button type="submit" name="login" id="lgn"><b>LOGIN</b></button></a>
+      </td>
+       </tr>
+              
+              
+     <tr>
+      <td colspan="3">
+        &nbsp;
+      </td>
+    </tr>
+        
+    <TR>
+      <td colspan="3" ALIGN="center">Don't have an account yet? 
+    </TR>
+      
+    <tr>
+      <td>
+                  &nbsp;
+             </td>
+            <td colspan="2" align="center">
+        <a href="signup.html"
+        style="text-decoration: none;">
+        <button type="button" name="signup" id="sgnup">sign up</button>
+        </a>
+      </td>
+    </tr>
+    <TR>
+      <td colspan="3"
+      ALIGN=CENTER> 
+        <a href="forget.password"
+    style="color: #007BFF;
+  text-decoration: none;"   >     
+          Forget password?
+        </a> </TD>
+    </TR>
+  </table>
+  </form>
+ 
+
+  <script>
+  const emailInput=document.getElementById('email');
+  emailInput.addEventListener('invalid', function()
+  {
+this.setCustomValidity('HERE,Fill all the fields to proceed¡¡');
+  });
+  emailInput.addEventListener('input', function()
+  {
+this.setCustomValidity('');
+  });
+        
+         pswdInput=document.getElementById('pswd');
+  pswdInput.addEventListener('invalid', function()
+  {
+this.setCustomValidity('HERE,Fill all the fields to proceed¡¡');
+  });
+  pswdInput.addEventListener('input', function()
+  {
+this.setCustomValidity('');
+  });
+        
+         rmbrInput=document.getElementById('rmbr');
+  rmbrInput.addEventListener('invalid', function()
+  {
+this.setCustomValidity('HERE,Fill all the fields to proceed¡¡');
+  });
+  rmbrInput.addEventListener('input', function()
+  {
+this.setCustomValidity('');
+  });
+    </script>
+  
+</body>
+</html>
+
