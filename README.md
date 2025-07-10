@@ -1,1 +1,1 @@
-# Geate-Minds-Sacco
+# Great-Minds-Sacco
